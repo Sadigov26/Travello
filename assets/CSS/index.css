@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Travello {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+}
+
+.logoImg {
+    display: flex;
+    justify-content: center;
+    width: 15%; 
+
+}
+
+ul {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    width: 100%;
+    height: 110px;
+    
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    width: 12%;
+    height: 110px;
+   opacity: 0.3  ;
+
+
+}
+.phone{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 110px;
+
+}
+.iconsCall{
+
+height: 110px;
+width: 20%;
+display: flex;
+    justify-content: end;
+    align-items: center;
+    color: red;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: red;
+width: 5%;
+height: 110px;
+color: aliceblue;
+}
